@@ -1,0 +1,29 @@
+.produit-container{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center; 
+    margin-top:50px;
+}
+.produit-card{
+    width:33%;
+    margin:auto;
+}
+img{
+    max-width:100%;
+}
+.produit-titre,
+.produit-prix{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin-left: 40%;
+    background-color: brown;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
